@@ -190,6 +190,19 @@
 // let natija = delete1(str);
 // console.log(natija);
 
+//!15-misol;
+
+// let arr = [1, 2, 3, 4, 5];
+// let res = [];
+// let sum = 0;
+// for (let i = 0; i <= arr.length - 1; i++) {
+//     res.push(arr[i] ** 2);
+// }
+// for (let i = 0; i <= res.length - 1; i++) {
+//     sum += res[i];
+// }
+// console.log(sum);
+
 //!17-misol;
 
 // let str = "salom alisher";
@@ -202,3 +215,53 @@
 // let natija = toUpper(str);
 // console.log(natija);
 
+//!16-misol;
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// function reverseMassiv(arg) {
+//     let res = arg.slice().reverse();
+//     return res;
+// }
+// console.log(reverseMassiv(numbers));
+
+//!18-misol;
+// let users = [
+//     { name: "John", age: 25 },
+//     { name: "Saidburxon", age: 14 },
+//     { name: "Sardor", age: 16 },
+//     { name: "Aziz", age: 18 },
+//     { name: "Kala", age: 100 },
+//     { name: "Hitler", age: 138 },
+// ];
+
+// function filterUsers(arg, age) {
+//     let res = arg.filter((user) => user.age > age);
+//     return res;
+// }
+// console.log(filterUsers(users, 16));
+
+//!19-misol;
+// let numbers = [ 6, 3, 10, 9, 9, 42, 1, ];
+// let element = 3;
+// let counter = 0;
+// for (let i = 0; i <= numbers.length; i++) {
+//     if (numbers[i] === element) {
+//         counter++;
+//     }
+// }
+// console.log(counter);
+
+//!20-misol;
+// function ajratilganLetters(str1, str2) {
+//     let str1Letters = str1.split("").sort().join("");
+//     let str2Letters = str2.split("").sort().join("");
+//     let commonLetters = "";
+//     for (let i = 0; i < str1Letters.length; i++) {
+//         if (str2Letters.includes(str1Letters[i])) {
+//             commonLetters += str1Letters[i];
+//         }
+//     }
+//     return commonLetters;
+// }
+// console.log(ajratilganLetters("hello", "world"));
